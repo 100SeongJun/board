@@ -15,6 +15,7 @@ export const BoardListTable = ({ boards }) => {
         </thead>
         <tbody>
           {boards &&
+            boards.dtoList &&
             boards.dtoList.map((board) => {
               return (
                 <tr key={board.boardNo}>
