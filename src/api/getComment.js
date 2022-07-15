@@ -1,5 +1,5 @@
 import axios from "axios";
-const url = "http://localhost:8080/comment";
+const url = "http://3.94.85.13/comment";
 export const getComment = (setCommentData, boardNo) => {
   axios.get(url + `/${boardNo}`).then((response) => {
     setCommentData(response.data);

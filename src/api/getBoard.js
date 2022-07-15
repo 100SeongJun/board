@@ -1,5 +1,5 @@
 import axios from "axios";
-const url = "http://localhost:8080/board";
+const url = "http://3.94.85.13/board";
 export const getBoard = async (setBoardList, pages = 1) => {
   await axios.get(url, { params: { page: pages } }).then((response) => {
     setBoardList(response.data);
