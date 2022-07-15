@@ -21,19 +21,21 @@ export const Paging = ({ setBoardList, boards, setPage }) => {
       ) : (
         <></>
       )}
-      {boards.pageList.map((page) => {
-        return (
-          <span
-            className="numbtn"
-            onClick={() => {
-              setPage(page);
-            }}
-            key={page}
-          >
-            {page}
-          </span>
-        );
-      })}
+      {boards &&
+        boards.pageList &&
+        boards.pageList.map((page) => {
+          return (
+            <span
+              className="numbtn"
+              onClick={() => {
+                setPage(page);
+              }}
+              key={page}
+            >
+              {page}
+            </span>
+          );
+        })}
       {boards.next ? (
         <span
           className="numbtn"
