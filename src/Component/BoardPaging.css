@@ -1,0 +1,52 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0 auto;
+
+  width: 70%;
+}
+/* BoardTable */
+.boardTable {
+  display: flex;
+  text-align: center;
+  align-content: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.boardTable td {
+  width: 30%;
+  height: 40px;
+}
+.boardTable .cgray {
+  background-color: rgba(128, 128, 128, 0.747);
+}
+
+.boardTable table {
+  border-collapse: collapse;
+}
+
+.boardTable table tr {
+  border-left: solid 1px black;
+  border-right: solid 1px black;
+  border-bottom: solid 1px black;
+}
+
+/* Paging */
+.pagingBtn {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 10px;
+  border: 1px gray solid;
+  height: 30px;
+  align-items: center;
+  width: 70vw;
+  border-radius: 10px;
+}
+.pagingBtn .numbtn:hover {
+  background-color: rgb(151, 255, 220);
+  transform: scale(1.1);
+  border: 1px gray solid;
+  border-radius: 10px;
+}

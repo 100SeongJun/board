@@ -1,0 +1,22 @@
+.boardList {
+  border: 1px solid black;
+  width: 100%;
+  height: 80vh;
+}
+.boardList .header {
+  margin: 20px;
+  font-size: 20px;
+  display: flex;
+  text-align: center;
+  font-weight: bold;
+}
+
+.boardList .header span {
+  margin-right: 20px;
+}
+.boardList .header a {
+  padding: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border: 1px solid black;
+}

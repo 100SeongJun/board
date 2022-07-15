@@ -1,0 +1,26 @@
+.headerContainer {
+  border: 1px solid black;
+}
+
+.headerContainer .header {
+  font-size: 20px;
+  font-weight: bolder;
+  margin-bottom: 5px;
+}
+
+.headerContainer .border {
+  /* border-bottom: 1px solid black; */
+  margin-right: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.headerContainer a {
+  margin-top: 10px;
+  background-color: rgb(202, 211, 207);
+  border: 1px solid blanchedalmond;
+}
+
+.headerContainer .body {
+  margin-left: 50px;
+}
